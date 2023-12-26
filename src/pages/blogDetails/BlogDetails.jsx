@@ -1,7 +1,7 @@
 import React from 'react'
 import { useState } from 'react'
 import classes from './blogDetails.module.css'
-import { useParams, Link } from 'react-router-dom'
+import { useParams, NavLink } from 'react-router-dom'
 import { useSelector } from 'react-redux'
 import { useEffect } from 'react'
 import { request } from '../../utils/fetchApi'

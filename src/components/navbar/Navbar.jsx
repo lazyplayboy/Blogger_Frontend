@@ -1,6 +1,6 @@
 import React from 'react'
 import classes from './navbar.module.css'
-import { NavLink } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 //import womanImg from '../../assets/woman.jpg'
 import { useState } from 'react'
 
